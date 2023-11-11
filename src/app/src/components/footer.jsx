@@ -10,10 +10,10 @@ export default function Footer() {
       </p>
       <div className="flex space-x-2">
         <a href="#">
-          <GrInstagram />
+          <GrInstagram className="w-5 h-5 mt-0.5" />
         </a>
         <a href="#">
-          <AiOutlineLinkedin />
+          <AiOutlineLinkedin className="w-6 h-6" />
         </a>
       </div>
     </footer>
