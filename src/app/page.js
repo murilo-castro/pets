@@ -1,4 +1,5 @@
-import Image from 'next/image';
+import Image from "next/image";
+import Footer from "./src/components/footer";
 
 export default function Home() {
   return (
@@ -45,7 +46,7 @@ export default function Home() {
         </nav>
       </header>
       <main></main>
-      <footer></footer>
+      <Footer />
     </>
   );
 }
