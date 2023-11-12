@@ -5,7 +5,7 @@ const Secao01 = () => {
   const tamanhoDaTelaGrande = "block";
 
   return (
-    <section className="relative p-0 pl-5 m-0">
+    <section className="relative p-0 pl-5">
       {/* Imagem para dispositivos móveis */}
       <div className="block  tablet:hidden ">
         <Image
@@ -21,10 +21,10 @@ const Secao01 = () => {
       <div className="hidden laptop:block ">
         <Image
           src="/imagens/frameMobile02.png"
-          width={600}
-          height={300}
+          width={894}
+          height={276}
           alt="frame"
-          className={`${tamanhoDaTelaGrande}`}
+          className={`${tamanhoDaTelaGrande} max-h-[300px] min-w-[600px]`}
         />
       </div>
     </section>
