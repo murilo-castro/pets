@@ -3,7 +3,7 @@ import { GrInstagram } from 'react-icons/gr';
 
 export default function Footer() {
   return (
-    <footer className="flex flex-col laptop:flex-row justify-around items-center w-full min-w-full text-center p-4 bg-primary text-white">
+    <footer className="flex flex-col laptop:flex-row justify-around items-center text-center p-4 bg-primary text-white">
       <p className="text-2xl text-white font-black p-2">rex.pet</p>
       <p className="">
         Todos os direitos reservados - {new Date().getFullYear()}{' '}

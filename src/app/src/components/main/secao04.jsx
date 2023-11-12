@@ -4,7 +4,7 @@ const Secao04 = () => {
   return (
     <section>
       <p className="text-center font-bold text-[32px] text-black-services mt-[60px] mb-[40px]">Serviços buscados com frequencia</p>
-      <div className="flex gap-5 justify-around mb-[30px] p-5">
+      <div className="flex flex-col items-center laptop:flex-row gap-5 laptop:justify-around mb-[30px] p-5">
       <Link href="#">
         <Image
           src="/imagens/img01.png"

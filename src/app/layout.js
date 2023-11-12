@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
         <div className="h-screen min-h-screen flex flex-col justify-between">
           <Header />
           {children}
-          <Footer className="absolut bottom-0" />
+          <Footer />
         </div>
       </body>
     </html>
