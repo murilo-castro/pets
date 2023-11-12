@@ -16,7 +16,7 @@ const Secao02 = () => {
             className="p-2 pl-8 rounded-lg border border-gray-500 font-bold w-[100%] "
           />
         </div>
-        <div className="relative">
+        <div className="relative inline">
           <PiPawPrintThin className="absolute top-1/2 transform -translate-y-1/2 left-3  " />
           <input
             type="text"
