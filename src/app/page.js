@@ -1,9 +1,10 @@
 import Image from "next/image";
 import Footer from "./src/components/footer";
+import Main from "./src/components/main";
 
 export default function Home() {
   return (
-    <>
+    <div className="h-screen bg-[#F7F9FA] dark:bg-zinc-800 text-zinc-900 dark:text-zinc-50 ">
       <header classNameName="flex flex-col justify-between max-w-7xl mx-auto p-4">
         <nav className="bg-white border-gray-200 dark:bg-gray-900">
           <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
@@ -45,8 +46,8 @@ export default function Home() {
           </div>
         </nav>
       </header>
-      <main></main>
+      <Main />
       <Footer />
-    </>
+    </div>
   );
 }
