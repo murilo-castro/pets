@@ -4,7 +4,7 @@ import Secao03 from "../main/secao03";
 import Secao04 from "../main/secao04";
 export default function Main() {
   return (
-    <main className="h-[calc(100vh_-_4rem)] lg:h-[calc(100vh_-_5rem)]">
+    <main>
       <div className="flex flex-col desktop:flex-row justify-between m-auto">
         <Secao01 />
         <Secao02 />
