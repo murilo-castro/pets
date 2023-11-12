@@ -4,22 +4,24 @@ import { AiOutlineStar, AiOutlineHeart } from "react-icons/ai";
 
 const Secao03 = () => {
   return (
-    <section>
+    <section className="mt-[56px]">
       <ul className="flex  justify-center flex-row gap-16 text-auxiliaryPink font-bold ">
         <li className="px-2">
-          <Link href="#">
-            <ImSearch />
+          <Link href="#" className="flex text-auxiliary-pink">
+            <ImSearch className="mr-2 mt-1"/>
             Encontre especialistas
           </Link>
         </li>
         <li>
-          <Link href="#">
-            <AiOutlineStar /> Os melhores proficionais
+          <Link href="#" className="flex text-auxiliary-pink">
+            <AiOutlineStar className="mr-2 mt-1"/>
+            Os melhores proficionais
           </Link>
         </li>
         <li>
-          <Link href="#">
-            <AiOutlineHeart /> Avalie o serviço
+          <Link href="#" className="flex text-auxiliary-pink">
+            <AiOutlineHeart className="mr-2 mt-1"/>
+            Avalie o serviço
           </Link>
         </li>
       </ul>

@@ -3,17 +3,17 @@ import { GrInstagram } from "react-icons/gr";
 
 export default function Footer() {
   return (
-    <footer className="flex flex-col  text-center  max-w-7xl mx-auto p-4 bg-primary text-white  laptop:flex-row laptop:justify-between ">
-      <p className="text-2xl text-white font-black p-2 mx-11">rex.pet</p>
-      <p className="p-2 laptop:p-3 laptop:mx-[20vw]">
+    <footer className="flex flex-col laptop:flex-row justify-around items-center w-full min-w-full text-center p-4 bg-primary text-white">
+      <p className="text-2xl text-white font-black p-2">rex.pet</p>
+      <p className="">
         Todos os direitos reservados - {new Date().getFullYear()}{" "}
       </p>
-      <div className="flex space-x-2 m-auto p-2">
+      <div className="flex gap-2 mt-2 laptop:mt-0">
         <a href="#" className="hover:scale-110">
           <GrInstagram className="w-5 h-5 mt-0.5 hover:text-blue-500 trasition duration-300" />
         </a>
         <a href="#" className="hover:scale-110">
-          <AiOutlineLinkedin className="w-6 h-6 hover:text-blue-500 transition duration-300" />
+          <AiOutlineLinkedin className="w-6 h-6 font-semibold hover:text-blue-500 transition duration-300" />
         </a>
       </div>
     </footer>
