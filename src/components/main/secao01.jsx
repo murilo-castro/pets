@@ -24,7 +24,7 @@ const Secao01 = () => {
           width={894}
           height={276}
           alt="frame"
-          className={`${tamanhoDaTelaGrande} min-h-[276px] md:[894px] pr-5`}
+          className={`${tamanhoDaTelaGrande} min-h-[276px] md:w-[894px] 2xl:w-full pr-5`}
         />
       </div>
     </section>

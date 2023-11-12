@@ -20,7 +20,7 @@ const Nav = () => {
           </li>
           <li>
             <Link
-              href="#"
+              href="/"
               className="flex text-primary text-xl hover:text-blue-500"
             >
               <LiaHeartbeatSolid className="mr-2 mt-1" />
@@ -29,7 +29,7 @@ const Nav = () => {
           </li>
           <li>
             <Link
-              href="#"
+              href="pet-intineraries"
               className="flex text-primary text-xl hover:text-blue-500"
             >
               <TbPaw className="mr-2 mt-1" />
