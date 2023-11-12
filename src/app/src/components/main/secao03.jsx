@@ -5,7 +5,7 @@ import { AiOutlineStar, AiOutlineHeart } from "react-icons/ai";
 const Secao03 = () => {
   return (
     <section className="mt-[56px]">
-      <ul className="flex  justify-center flex-row gap-16 text-auxiliaryPink font-bold ">
+      <ul className="flex flex-col items-center laptop:flex-row gap-16 laptop:justify-center text-auxiliaryPink font-bold ">
         <li className="px-2">
           <Link href="#" className="flex text-auxiliary-pink">
             <ImSearch className="mr-2 mt-1"/>

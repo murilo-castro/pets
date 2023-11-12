@@ -13,7 +13,7 @@ const Secao01 = () => {
           width={500}
           height={500}
           alt="frame"
-          className={` ${tamanhoDaTelaPequeno}`}
+          className={`${tamanhoDaTelaPequeno} pr-5`}
         />
       </div>
 
@@ -24,7 +24,7 @@ const Secao01 = () => {
           width={894}
           height={276}
           alt="frame"
-          className={`${tamanhoDaTelaGrande} min-h-[276px] md:[894px]`}
+          className={`${tamanhoDaTelaGrande} min-h-[276px] md:[894px] pr-5`}
         />
       </div>
     </section>
