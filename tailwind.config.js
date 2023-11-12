@@ -19,14 +19,14 @@ module.exports = {
         laptop: "601px",
         // => @media (min-width: 601px) { ... }
 
-        desktop: "1280px",
+        desktop: "940px",
         // => @media (min-width: 1280px) { ... }
       },
       colors: {
         rexpet: "#1271A1",
         primary: "#062A3C",
         main: "#F7F9FA",
-        auxiliaryPink: "#F67392",
+        "auxiliary-pink": "#F67392",
       },
     },
   },
