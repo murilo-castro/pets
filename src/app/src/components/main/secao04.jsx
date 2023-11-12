@@ -3,39 +3,41 @@ import Image from "next/image";
 const Secao04 = () => {
   return (
     <section>
-      <p>Serviços buscados com frequencia</p>
+      <p className="text-center font-bold text-[32px] text-black-services mt-[60px] mb-[40px]">Serviços buscados com frequencia</p>
+      <div className="flex gap-5 justify-around mb-[30px] p-5">
       <Link href="#">
         <Image
           src="/imagens/img01.png"
-          width={200}
-          height={200}
+          width={321}
+          height={239}
           alt="Pet Walker"
         />
       </Link>
       <Link href="#">
         <Image
           src="/imagens/img02.png"
-          width={200}
-          height={200}
+          width={321}
+          height={239}
           alt="Veterinário"
         />
       </Link>
       <Link href="#">
         <Image
           src="/imagens/img03.png"
-          width={200}
-          height={200}
+          width={321}
+          height={239}
           alt="Pet Sister"
         />
       </Link>
       <Link href="#">
         <Image
           src="/imagens/img04.png"
-          width={200}
-          height={200}
+          width={321}
+          height={239}
           alt="Adestrador"
         />
       </Link>
+      </div>
     </section>
   );
 };
