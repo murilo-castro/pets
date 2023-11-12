@@ -22,6 +22,10 @@ module.exports = {
         desktop: "1280px",
         // => @media (min-width: 1280px) { ... }
       },
+      colors: {
+        rexpet: '#1271A1',
+        primary: '#062A3C',
+      },
     },
   },
   plugins: [],

@@ -1,6 +1,9 @@
-import Image from "next/image";
-import Footer from "./src/components/footer";
-import Main from "./src/components/main";
+import Image from 'next/image';
+import Footer from './src/components/footer';
+import Main from './src/components/main';
+import { LiaHeartbeatSolid } from 'react-icons/lia';
+import { MdOutlinePets } from 'react-icons/md';
+import { GiHamburgerMenu } from 'react-icons/gi';
 
 export default function Home() {
   return (
@@ -9,7 +12,7 @@ export default function Home() {
         <nav className="bg-white border-gray-200 dark:bg-gray-900">
           <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="#" className="flex items-center">
-              <h1 className="text-sky-800 text-4xl font-black">rex.pet</h1>
+              <h1 className="text-rexpet text-4xl font-black">rex.pet</h1>
             </a>
             <div
               className="hidden w-full md:block md:w-auto"
@@ -19,25 +22,28 @@ export default function Home() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-900 text-xl hover:text-blue-500"
+                    className="flex text-primary text-xl hover:text-blue-500"
                     aria-current="page"
                   >
+                    <GiHamburgerMenu />
                     Produtos
                   </a>
                 </li>
                 <li>
                   <a
                     href="#"
-                    className="text-gray-900 text-xl hover:text-blue-500"
+                    className="flex text-primary text-xl hover:text-blue-500"
                   >
+                    <LiaHeartbeatSolid />
                     Cuidados Pet
                   </a>
                 </li>
                 <li>
                   <a
                     href="#"
-                    className="text-gray-900 text-xl hover:text-blue-500"
+                    className="flex text-primary text-xl hover:text-blue-500"
                   >
+                    <MdOutlinePets />
                     Roteiros Pet Family
                   </a>
                 </li>
