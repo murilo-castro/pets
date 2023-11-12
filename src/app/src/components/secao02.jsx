@@ -3,8 +3,8 @@ import { TbPaw } from "react-icons/tb";
 
 const Secao02 = () => {
   return (
-    <section className="bg-white mx-5 w-[454px] max-w-[454px] h-276px min-h-[276px]">
-      <p className="text-primary text-[24px] font-bold mb-3">
+    <section className="bg-white shrink-1 mx-5 desktop:w-[422px] xl:w-[454px] h-276px min-h-[276px] py-[6px]">
+      <p className="text-primary w-[100%] text-[20px] xl:text-[24px] font-semibold mb-3">
         Digite uma cidade e o que procura:
       </p>
       <form className="flex flex-col gap-[8px] space-y-2 pb-[16px]">
