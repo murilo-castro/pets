@@ -28,6 +28,7 @@ module.exports = {
         main: '#F7F9FA',
         'auxiliary-pink': '#F67392',
         'black-services': '#000305',
+        'auxiliary-blue': '#D9EAF2',
       },
     },
   },

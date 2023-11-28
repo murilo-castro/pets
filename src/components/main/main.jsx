@@ -1,5 +1,5 @@
 import Secao01 from "./secao01";
-import Secao02 from "../main/secao02";
+import Form from "../form";
 import Secao03 from "../main/secao03";
 import Secao04 from "../main/secao04";
 export default function Main() {
@@ -8,7 +8,9 @@ export default function Main() {
       <div>
         <div className="flex flex-col desktop:flex-row justify-between mx-auto mt-1">
           <Secao01 />
-          <Secao02 />
+          <div className="flex w-[300px] md:w-[454px] mx-auto " >
+            <Form />
+          </div>
         </div>
         <Secao03 />
         <Secao04 />

@@ -9,10 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-google-maps/api": "^2.19.2",
+    "@unalayta/route-finder": "^2.3.1",
+    "axios": "^1.6.2",
+    "mapbox-gl": "^2.15.0",
     "next": "^14.0.2",
+    "places-finder": "^1.0.0",
     "react": "^18",
     "react-dom": "^18",
-    "react-icons": "^4.11.0"
+    "react-geocode": "^1.0.0-alpha.1",
+    "react-google-autocomplete": "^2.7.3",
+    "react-icons": "^4.11.0",
+    "react-mapbox-gl": "^5.1.1"
   },
   "devDependencies": {
     "@types/node": "20.9.0",
@@ -21,6 +29,7 @@
     "eslint": "^8",
     "eslint-config-next": "14.0.2",
     "postcss": "^8",
-    "tailwindcss": "^3.3.0"
+    "tailwindcss": "^3.3.0",
+    "typescript": "5.2.2"
   }
 }
