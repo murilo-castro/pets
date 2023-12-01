@@ -56,7 +56,7 @@ const MapIntineraries = () => {
   });
 
   return isLoaded ? (
-    <div className="flex  rounded-s-2xl w-[376px] h-[369px] lg:w-[672px] xl:w-[792px] 2xl:w-[892px] md:h-[727px] xl:h-[837px]">
+    <div className="flex rounded-s-2xl w-full mx-auto h-[369px] md:h-full md:w-[462px] lg:w-[672px] xl:w-[792px] 2xl:w-[892px] mb-4">
       <GoogleMap
         mapContainerStyle={containerStyle}
         center={center}

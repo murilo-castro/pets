@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className + 'h-screen min-h-screen'}>
         <MapsContextProvider>
           <div className="h-screen min-h-screen flex flex-col justify-between">
-            <div className="xl:container mx-auto">
+            <div className="xl:container mx-auto grow">
               <Header />
               {children}
             </div>

@@ -12,8 +12,8 @@ const servicesPet = [
 
 const CarouselServices = () => {
   return (
-    <section>
-      <div className="overflow-x-auto w-[376px] lg:w-[672px] xl:w-[792px] 2xl:w-[891px]">
+    <div className='flex flex-col h-full'>
+      <div className="flex overflow-x-auto w-[96%] md:w-[462px] lg:w-[672px] xl:w-[792px] 2xl:w-[891px] mx-4">
         <ul className="flex gap-[24px] items-center font-bold text-primary text-[11px]">
           {servicesPet.map((service) => (
             <li
@@ -26,12 +26,10 @@ const CarouselServices = () => {
           ))}
         </ul>
       </div>
-      <div>
-        <div className="mt-6">
-          <MapIntineraries />
-        </div>
+      <div className="mt-6 mb-2 grow">
+        <MapIntineraries />
       </div>
-    </section>
+    </div>
   );
 };
 

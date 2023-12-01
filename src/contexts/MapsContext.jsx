@@ -10,6 +10,7 @@ export const MapsContextProvider = ({ children }) => {
   const [markers, setMarkers] = useState([]);
   const [places, setPlaces] = useState([]);
   const [loading, setLoading] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
   const saveCity = (title) => {
     setCity(title);
@@ -31,12 +32,14 @@ export const MapsContextProvider = ({ children }) => {
         care,
         places,
         loading,
+        isOpen,
         saveCity,
         saveCare,
         markers,
         setMarkers,
         savePlaces,
-        setLoading
+        setLoading,
+        setIsOpen
       }}
     >
       {children}
